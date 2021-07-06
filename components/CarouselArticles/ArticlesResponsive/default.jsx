@@ -20,17 +20,16 @@ const ContentArticles = styled.div`
   height: auto;
   max-width: 500px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 `
 const WrapperImage = styled.div`
   max-width: 463px;
-  max-height: 373px;
+  max-height: 273px;
   margin: 0 auto;
-  
 `
 const Image = styled.img`
   width: 100%;
-  height: 100%;
+  height: 273px;
   object-fit: cover;
 `
 const Description = styled.h4`
@@ -51,5 +50,5 @@ const Drafting = styled.h6`
   color: white;
   font-size: 14px;
   font-weight: 100;
-  margin-left: 18px;
+  font-style: oblique;
 `

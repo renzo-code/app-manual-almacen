@@ -68,8 +68,7 @@ const LogoArrowReturn = styled.img`
 const ContentHeader = styled.div`
   display: flex;
   align-items: center; 
-  height: 100%;
-  max-height: 100px;
+  height: 100px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -80,7 +79,7 @@ const WrapperLogo = styled.div`
   width: 290px;
   padding-left: 10px;
   margin: 0 auto;
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 621px) {
     display: none;
   }
 `
@@ -94,10 +93,10 @@ const WrapperLogoResponsive = styled.div`
   width: 150px;
   padding-left: 10px;
   margin: 0 auto;
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 621px) {
     display: block;
   }
-  @media only screen and (min-width: 620px) {
+  @media only screen and (min-width: 622px) {
     display: none;
   }
 `

@@ -53,7 +53,7 @@ position: relative;
         bottom: 10%;
         margin: 0 auto;
         display: none;
-        @media only screen and (max-width: 620px) {
+        @media only screen and (max-width: 621px) {
             bottom: 2%;
         }
     }
@@ -90,12 +90,16 @@ position: relative;
     & div > div > button {
         min-width: 5px;
     }
+    & div > div {
+        /* position: relative; */
+    }
     & div > div > .rec-arrow-left {
-        position:relative;
+        position: absolute;
         z-index: 15;
         width: 24px;
         height: 24px;
-        left: 80px;
+        left: 12%;
+        top: 37%;
         background-image: url('${process.env.APP_ROOT}img/svg_flechaizq24x24-01.svg');
         background-size: cover;
         color: transparent;
@@ -106,6 +110,10 @@ position: relative;
             font-size: 24px;
             font-family: FontAwesome;
         }
+        &:hover{
+            opacity: 0.5;
+            transition: 0.5s;
+        }
         /* display: none; */
     }
     & div > div > .rec-arrow-right {
@@ -113,14 +121,27 @@ position: relative;
         z-index: 10;
         width: 24px;
         height: 24px;
-        right: 80px;
+        right: 12%;
+        top: 37%;
         background-image: url('${process.env.APP_ROOT}/img/svg_flechader24x24-01.svg');
         background-size: cover;
         color: transparent;
         background-color: transparent;
         box-shadow: none;
         margin-bottom: 0;
+        &:hover{
+            opacity: 0.5;
+            transition: 0.3s;
+        }
         /* display: none; */
+    }
+    @media only screen and (max-width: 520px) {
+        & div > div > .rec-arrow-right {
+            right: 7% ;
+        }
+        & div > div > .rec-arrow-left {
+            left: 7% ;
+        }
     }
     @media only screen and (max-width: 1023px) {
         & > div > .rec-pagination {
@@ -143,7 +164,7 @@ position: relative;
     }
     @media only screen and (min-width: 768px) {
         & div > div > .rec-arrow-right {
-            right: 30px;
+            /* right: 30px; */
         }
         & div > div > .rec-arrow-left {
             /* left: 30px; */
@@ -169,7 +190,7 @@ position: relative;
             margin: 0;
         }
         & div > div > .rec-arrow-right {
-            right: 56px;
+            /* right: 56px; */
         }
         & div > div > .rec-arrow-left {
             /* left: 56px; */

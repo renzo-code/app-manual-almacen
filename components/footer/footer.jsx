@@ -117,8 +117,11 @@ const ContainerFooter = styled.div`
   max-width: 1440px;
   width: 100%;
   height: auto;
-  margin: 20px auto 0;
+  padding-top: 20px;
+  margin: 0 auto 0;
   padding-bottom: 20px;
+  background-color: white;
+  box-shadow: 1px 0px 20px 5px rgba(0,0,0,0.7);
   @media (max-width: 600px) {
     display: block;
   }

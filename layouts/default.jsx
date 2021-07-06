@@ -6,7 +6,8 @@ import Footer from '../components/footer/footer'
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background-color: #252525;
 `
 const ContainerMain = styled.main`
   box-shadow: 1px 0px 20px 5px rgba(0,0,0,0.7);
@@ -41,7 +42,7 @@ const Layout = (props) => {
         <ContainerMain>
           {children}
         </ContainerMain>
-        <Footer/>
+      <Footer/>
       </Wrapper>
     </>
   )

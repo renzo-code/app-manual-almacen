@@ -3,37 +3,26 @@ import { ContentCarousel } from './style'
 import './style'
 import ArticlesResponsive from './ArticlesResponsive/default'
 
-const CarouselArticles = (props) => {
-  const { dataArticles } = props
+const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
+
+const CarouselArticles = ({ DataSelecionEditor }) => {
   return (
     <>
       <div className="ContentSuplement">
         <ContentCarousel>
           <Carousel >
-            {dataArticles &&
-              dataArticles.map((item, index) => (
+            {DataSelecionEditor &&
+              DataSelecionEditor.map((item, index) => (
                 <div className="content_slider" key={index}>
                   <a className="redirec_slider"
                     href={item.url}
-                    target="_blank"
                   >
                     <ArticlesResponsive
                       key={index}
-                      picture={item.picture}
-                      description={item.description}
-                      drafting={item.drafting}
+                      picture={item?.image?.url_origin || item?.image?.url || ImagenDefault}
+                      description={item?.title.split(" - ")[0]}
+                      drafting={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
                     />
-                    {/* <div className="SliderTitle">
-                      <h2>{item.title}</h2>
-                    </div>
-                    <div className="SliderSubtitle">
-                      <h5 className="subtitle">{item.subTitle}</h5>
-                    </div>
-                    <img
-                      className="imgSlider"
-                      src={item.url}
-                      alt={'slider' + index}
-                    /> */}
                   </a>
                 </div>
               ))}
@@ -42,7 +31,7 @@ const CarouselArticles = (props) => {
       </div>
       <style jsx="true">
         {`
-          @media only screen and (min-width: 620px) {
+          @media only screen and (min-width: 621px) {
               .ContentSuplement {
                 display: none;
               }
@@ -104,11 +93,14 @@ const CarouselArticles = (props) => {
             }
             .redirec_slider {
               // height: 100%;
+              margin: 0 auto;
+              width: inherit;
             }
             .content_slider {
               display: flex;
               justify-content: center;
               text-align: left;
+              margin: 0 15px;
             }
             @media only screen and (min-width: 768px) {
               .SliderTitle h2 {
@@ -145,11 +137,6 @@ const CarouselArticles = (props) => {
                 display: flex;
                 justify-content: center;
                 text-align: left;
-              }
-            }
-            @media only screen and (max-width: 1000px) {
-              .SliderSubtitle {
-                // bottom: 22%;
               }
             }
           `}

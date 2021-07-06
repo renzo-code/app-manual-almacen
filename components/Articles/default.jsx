@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
-const Articles = ({ picture, description, drafting }) => {
+const Articles = ({ redirect, picture, description, drafting }) => {
   return (
     <>
       <ContentArticles>
-        <WrapperImage>
-          <Image src={picture} />
-        </WrapperImage>
-        <Description>{description}</Description>
+        <Redirect href={redirect} target="_parent">
+          <WrapperImage>
+            <Image src={picture} />
+          </WrapperImage>
+          <Description>{description}</Description>
+        </Redirect>
         <Drafting>Redactado por: {drafting}</Drafting>
       </ContentArticles>
     </>
@@ -16,20 +18,25 @@ const Articles = ({ picture, description, drafting }) => {
 
 export default Articles
 
+const Redirect = styled.a`
+  text-decoration: none;
+`
 const ContentArticles = styled.div`
-  height: 330px;
+  height: 100%;
   max-width: 300px;
-  width: 100%;
-  margin: auto;
+  width: auto;
+  margin: 0 auto;
 `
 const WrapperImage = styled.div`
-  max-width: 263px;
-  max-height: 173px;
+  height: 160px;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 20px;
 `
 const Image = styled.img`
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `
 const Description = styled.h4`
   color: white;
@@ -37,7 +44,7 @@ const Description = styled.h4`
   max-width: 263px;
   width: 263px;
   font-size: 18.5px;
-  margin: 10px auto ;
+  margin: 10px 0;
   line-height: 19px;
   letter-spacing: 0.5px;
   &:hover {
@@ -49,5 +56,5 @@ const Drafting = styled.h6`
   color: white;
   font-size: 14px;
   font-weight: 100;
-  margin-left: 18px;
+  font-style: oblique;
 `
