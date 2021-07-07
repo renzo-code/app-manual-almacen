@@ -10,7 +10,7 @@ const CarouselArticles = ({ DataSelecionEditor }) => {
     <>
       <div className="ContentSuplement">
         <ContentCarousel>
-          <Carousel >
+          <Carousel>
             {DataSelecionEditor &&
               DataSelecionEditor.map((item, index) => (
                 <div className="content_slider" key={index}>

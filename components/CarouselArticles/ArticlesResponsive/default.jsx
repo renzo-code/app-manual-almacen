@@ -29,7 +29,8 @@ const WrapperImage = styled.div`
 `
 const Image = styled.img`
   width: 100%;
-  height: 273px;
+  max-height: 273px;
+  height: auto;
   object-fit: cover;
 `
 const Description = styled.h4`
