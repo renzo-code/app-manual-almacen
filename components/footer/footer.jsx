@@ -146,6 +146,7 @@ const BlockMarca = styled.div`
   height: auto;
   border-left: 1px solid #9A9898;
   margin: 0 auto;
+  justify-content: center;
   @media (max-width: 600px) {
     justify-content: center;
     width: 100%;

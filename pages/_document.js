@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
-  static async getInitialProps (ctx) {
+  static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
@@ -28,15 +28,26 @@ export default class MyDocument extends Document {
     }
   }
 
-  render () {
+  render() {
     return (
       <Html lang="es">
-      <Head>
-        {this.props.styles}
-      </Head>
+        <Head>
+          {/* Global site tag (gtag.js) - Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N43VHLW" />
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag("js",new Date);
+              gtag("config","GTM-N43VHLW");
+            `
+          }}>
+          </script>
+          {this.props.styles}
+        </Head>
         <body>
-          <Main/>
-          <NextScript/>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     )

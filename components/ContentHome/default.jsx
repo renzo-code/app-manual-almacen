@@ -7,7 +7,6 @@ import CarouselArticlesEspeciales from '../CarouselArticles/defaultEspeciales'
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
 
 const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
-  console.log("DataLaUnidad", DataLaUnidad)
   return (
     <ContainerArtcl>
       <Title>LA SELECCIÓN DEL EDITOR</Title>
@@ -15,20 +14,18 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
         {
           DataSelecionEditor &&
           DataSelecionEditor.map((item, i) => (
-            <>
-              <Articles
-                key={i}
-                redirect={item?.url}
-                picture={item?.image?.url_origin || item?.image?.url || ImagenDefault}
-                description={item?.title.split(" - ")[0]}
-                drafting={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
-              />
-            </>
+            <Articles
+              key={i}
+              redirect={item?.url}
+              picture={item?.image?.url_origin || item?.image?.url || ImagenDefault}
+              description={item?.title.split(" - ")[0]}
+              drafting={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
+            />
           ))
         }
       </WrapperArticles>
 
-      <CarouselArticles DataSelecionEditor={DataSelecionEditor}  />
+      <CarouselArticles DataSelecionEditor={DataSelecionEditor} />
 
       <Title>INFORMES</Title>
       <WrapperArticles>

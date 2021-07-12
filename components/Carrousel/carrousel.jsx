@@ -18,7 +18,6 @@ const SliceCarrousel = ({ DataPortada }) => {
           <Carousel
             enableAutoPlay
             autoPlaySpeed={5000}
-            disableArrowsOnEnd={true}
           >
             {/* <Slider {...settings}>
               <div>
@@ -69,7 +68,6 @@ const SliceCarrousel = ({ DataPortada }) => {
               height: 140%;
               padding-left: 25px;
               position: absolute;
-              // width: 100vw;
               z-index: 10;
               width: 33.4%
             }
@@ -95,7 +93,6 @@ const SliceCarrousel = ({ DataPortada }) => {
               width: 100%;
               lign-items: center;
               z-index: 10;
-              // padding-left: 50px;
               align-items: center;
               max-width: 95.4%
             }
@@ -169,7 +166,6 @@ const SliceCarrousel = ({ DataPortada }) => {
                 font-size: 28px;
               }
             }
-
             @media only screen and (max-width: 620px) {
               .SliderTitle h2 {
                 font-size: 24px;
@@ -188,59 +184,9 @@ const SliceCarrousel = ({ DataPortada }) => {
                 height: 130%;
               }
               .SliderTitle h2 {
-                font-size: 19px;
+                font-size: 17px;
               }
             }
-            // @media only screen and (max-width: 768px) {
-            //   .subtitle {
-            //     font-size: 13px;
-            //   }
-            //   .SliderSubtitle {
-            //     bottom: 34%;
-            //   }
-            // }
-            // @media only screen and (max-width: 600px) {
-            //   .SliderSubtitle {
-            //     padding-left: 20px;
-            //     bottom: 10%;
-            //     display: none;
-            //   }
-            //   .SliderTitle {
-            //     height: 140%;
-            //   }
-            // }
-            // @media only screen and (max-width: 555px) {
-            //   .SliderTitle {
-            //     padding-left: 20px;
-            //   }
-            //   .subtitle {
-            //     font-size: 12px;
-            //   }
-            //   .SliderTitle h2 {
-            //     font-size: 16px;
-            //   }
-            // }
-            // @media only screen and (max-width: 1000px) {
-            //   .SliderSubtitle {
-            //     //bottom: 34%;
-            //   }
-            //   .subtitle {
-            //     // font-size: 15px;
-            //   }
-            // }
-
-            // @media only screen and (min-width: 1000px) {
-            //   .SliderTitle h2 {
-            //     width: 100%;
-            //     font-size: 40px;
-            //   }
-            // }
-            // @media only screen and (min-width: 768px) {
-            //   .SliderTitle h2 {
-            //     // width: 100%;
-            //     // font-size: 30px;
-            //   }
-            // }
           `}
       </style>
     </>
