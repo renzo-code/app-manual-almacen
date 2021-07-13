@@ -55,11 +55,15 @@ const WrapperImage = styled.div`
   font-size: 15px;
 `
 const LogoReturn = styled.img`
+  position: relative;
+  top: -2px;
   height: 20px;
   width: 100px;
   padding-left: 5px;
 `
 const LogoArrowReturn = styled.img`
+  position: relative;
+  top: -2px;
   height: auto;
   width: 30px;
   padding-left: 15px;

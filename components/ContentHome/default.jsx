@@ -9,7 +9,7 @@ const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DN
 const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
   return (
     <ContainerArtcl>
-      <Title>LA SELECCIÓN DEL EDITOR</Title>
+      <Title>NUESTRA SELECCIÓN </Title>
       <WrapperArticles>
         {
           DataSelecionEditor &&
