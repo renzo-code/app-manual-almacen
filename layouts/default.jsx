@@ -10,19 +10,13 @@ const Wrapper = styled.div`
   background-color: #252525;
 `
 const ContainerMain = styled.main`
-  box-shadow: 1px 0px 20px 5px rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.7);
   max-width: 1440px;
   width: 100%;
   margin: auto;
   padding: 0;
   min-height: calc(100vh - 450px);
   font-family: Arial, Helvetica, sans-serif;
-  @media(max-width: 768px) {
-    /* padding: 0 15px; */
-  }
-  @media(max-width: 360px) {
-    /* padding: 10px 15px ; */
-  }
 `
 
 const Layout = (props) => {

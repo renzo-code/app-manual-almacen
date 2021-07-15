@@ -1,8 +1,8 @@
 import Layout from '../layouts/default'
-import SuplementNotice from '../components/Carrousel/carrousel'
 import ContentHome from '../components/ContentHome/default'
 import { prop } from 'ramda'
 import styled from 'styled-components'
+import CarouselPortada from '../components/CarouselPortada/default'
 
 const URL = process.env.REACT_APP_ENDPOINT
 const TOKEN_ID = process.env.REACT_APP_TOKEN
@@ -14,7 +14,7 @@ const Home = ({ portada, article, articleEspeciales, BlockLaUnidad }) => {
   const DataLaUnidad = prop("featured_item", prop("data", prop("spotlight", prop("data", BlockLaUnidad))))
   return (
     <Layout>
-      <SuplementNotice DataPortada={DataPortada} />
+      <CarouselPortada DataPortada={DataPortada}/>
       <Content>
         <ContentHome
           DataSelecionEditor={DataSelecionEditor} 

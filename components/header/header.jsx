@@ -30,7 +30,7 @@ const Header = () => {
 export default Header
 
 const ContentItems = styled.div`
-  box-shadow: 1px 0px 20px 5px rgba(0,0,0,0.7);
+  box-shadow: 1px -9px 9px 5px rgba(0,0,0,0.7);
   max-height: 135px;
   height: 100%;
   max-width: 1440px;
