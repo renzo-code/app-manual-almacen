@@ -73,6 +73,7 @@ const Names = styled.h3`
   text-align: center;
   color: white;
   letter-spacing: 0.5px;
+  line-height: 1.1;
   @media (max-width: 600px) {
     font-size: 15px;
   }
@@ -85,6 +86,7 @@ const Ocupation = styled.h5`
   letter-spacing: 0.5px;
   font-weight: 100;
   font-style: oblique;
+  line-height: 1.1;
   @media (max-width: 600px) {
     font-size: 13px;
   }

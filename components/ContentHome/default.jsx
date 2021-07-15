@@ -3,6 +3,7 @@ import Articles from '../Articles/default'
 import Columnistas from '../Columnistas/default'
 import CarouselArticles from '../CarouselArticles/default'
 import CarouselArticlesEspeciales from '../CarouselArticles/defaultEspeciales'
+import ButtonSeeMore from '../ButtonSeeMore/default'
 
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
 
@@ -45,6 +46,10 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
 
       <CarouselArticlesEspeciales DataEspeciales={DataEspeciales} />
 
+      <a href="/informes" target="_parent" className="WrapperBtn">
+        <ButtonSeeMore nameBtn="VER TODOS LOS INFORMES"/>
+      </a>
+
       <Title>LA UNIDAD</Title>
       <WrapperClumnistas>
         {
@@ -59,6 +64,13 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
           ))
         }
       </WrapperClumnistas>
+      <style jsx>{`
+        .WrapperBtn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      `}</style>
     </ContainerArtcl>
   )
 }
@@ -71,10 +83,12 @@ const ContainerArtcl = styled.div`
 `
 const Title = styled.h1`
   text-align: center;
-  margin-top: 50px;
   font-size: 30px;
   color: white;
   font-weight: 800;
+  line-height: 1.5;
+  margin: 42px auto 14px auto;
+  width: 50%;
   &::after{
     content: "";
     display: block;
@@ -86,8 +100,12 @@ const Title = styled.h1`
       margin-bottom: 20px;
     }
   }
-  @media only screen and (max-width: 620px) {
-    font-size: 27px;
+  @media only screen and (max-width: 655px) {
+    font-size: 25px;
+    margin: 20px auto 14px auto;
+  }
+  @media only screen and (max-width: 385px) {
+    font-size: 23px;
   }
 `
 const WrapperArticles = styled.div`
