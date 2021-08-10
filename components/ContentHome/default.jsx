@@ -15,6 +15,7 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
         {
           DataSelecionEditor &&
           DataSelecionEditor.map((item, i) => (
+            console.log(item),
             <Articles
               key={i}
               redirect={item?.url}
