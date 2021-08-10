@@ -1,6 +1,8 @@
 import styled from 'styled-components'
+import { useRouter } from 'next/router';
 
 const Articles = ({ redirect, picture, description, drafting }) => {
+  const router = useRouter();
   return (
     <>
       <ContentArticles>
@@ -10,7 +12,8 @@ const Articles = ({ redirect, picture, description, drafting }) => {
           </WrapperImage>
           <Description>{description}</Description>
         </Redirect>
-        <Drafting>Redactado por: {drafting}</Drafting>
+        <Drafting className={router.pathname == '/' ? 'show' : 'close'}>Redactado por: {drafting}</Drafting>
+        
       </ContentArticles>
     </>
   )
@@ -24,7 +27,7 @@ const Redirect = styled.a`
 const ContentArticles = styled.div`
   height: 100%;
   max-width: 300px;
-  width: auto;
+  width: 300px;
   margin: 0 auto;
 `
 const WrapperImage = styled.div`

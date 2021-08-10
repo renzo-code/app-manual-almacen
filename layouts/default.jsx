@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   background-color: #252525;
 `
 const ContainerMain = styled.main`
-  box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.7);
+  box-shadow: 1px 11px 10px 5px rgba(0,0,0,0.7);
   max-width: 1440px;
   width: 100%;
   margin: auto;
