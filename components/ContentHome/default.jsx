@@ -46,10 +46,6 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
 
       <CarouselArticlesEspeciales DataEspeciales={DataEspeciales} />
 
-      <a href="/informes" target="_parent" className="WrapperBtn">
-        <ButtonSeeMore nameBtn="VER TODOS LOS INFORMES"/>
-      </a>
-
       <Title>LA UNIDAD</Title>
       <WrapperClumnistas>
         {
