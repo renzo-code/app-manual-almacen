@@ -5,6 +5,7 @@ import ButtonSeeMore from '../ButtonSeeMore/default'
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
 
 const ContentInformes = ({ DataSelecionEditor }) => {
+  console.log("DataSelecionEditor",DataSelecionEditor )
   return (
     <ContainerArtcl>
       <Title>INFORMES</Title>
@@ -12,7 +13,6 @@ const ContentInformes = ({ DataSelecionEditor }) => {
         {
           DataSelecionEditor &&
           DataSelecionEditor.filter(data => data.title != 'Data - [Home]').map((item, i) => (
-            console.log(item),
             <Articles
               key={i}
               redirect={item?.slug}
