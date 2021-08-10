@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Articles from '../Articles/default'
+import ButtonSeeMore from '../ButtonSeeMore/default'
 
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
 
@@ -23,8 +24,20 @@ const ContentInformes = ({ DataSelecionEditor }) => {
 
         }
       </WrapperArticles>
-
+      <a href="#" target="_parent" className="WrapperBtn-inf">
+        <ButtonSeeMore nameBtn="VER MÁS INFORMES"/>
+      </a>
+      <style jsx>{`
+        .WrapperBtn-inf {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: -30px;
+          padding-bottom: 30px;
+        }
+      `}</style>
     </ContainerArtcl>
+    
   )
 }
 
