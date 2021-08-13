@@ -8,7 +8,6 @@ const TOKEN_ID = process.env.REACT_APP_TOKEN
 
 const Home = ({ article }) => {
   const DataSelecionEditor = prop("data", prop("packages", prop("data", article)))
-  console.log(DataSelecionEditor)
   return (
     <Layout>
       <Content>
