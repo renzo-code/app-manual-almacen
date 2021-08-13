@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Articles from '../Articles/default'
+import { isEmpty, isNil } from 'ramda'
 import ButtonSeeMore from '../ButtonSeeMore/default'
 
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
@@ -16,7 +17,7 @@ const ContentInformes = ({ DataSelecionEditor }) => {
             <Articles
               key={i}
               redirect={item?.slug}
-              picture={item?.data?.multimedia[0]?.path || ImagenDefault}
+              picture={!isEmpty(item?.data?.multimedia) && !isNil(item?.data?.multimedia) && item?.data?.multimedia[0]?.path || ImagenDefault}
               description={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
               drafting={"LR Data"}
             />
