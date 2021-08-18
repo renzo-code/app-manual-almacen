@@ -12,7 +12,6 @@ const ContentInformes = ({ DataSelecionEditor }) => {
         {
           DataSelecionEditor &&
           DataSelecionEditor.filter(data => data.title != 'Data - [Home]').map((item, i) => (
-            console.log(item),
             <Articles
               key={i}
               redirect={item?.slug}
