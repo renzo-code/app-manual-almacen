@@ -10,7 +10,9 @@ const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DN
   
 const Home = (props) => {
 
-    const pages = 3;
+    const Full = props?.DataFull?.data?.packages?.data.length
+
+    const pages = Math.ceil(Full/6);
     const page =  props?.Data?.data?.packages?.current_page;
     const data = props?.Data?.data?.packages?.data;
     const limit =  props?.Data?.data?.packages?.per_page;
@@ -25,8 +27,7 @@ const Home = (props) => {
       props.router.push({
           pathname: currentPath,
           query: currentQuery,
-      });      
-
+      });
     };
 
     useEffect(() => {
@@ -45,7 +46,7 @@ const Home = (props) => {
         const newPostAxios = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=${newLimit}`, object_fetch);
         const newPost = newPostAxios?.data?.data?.packages?.data
         
-        console.log(newPost)
+        console.log(newPost, Full)
         setPosts(newPost);
     };
     
@@ -78,8 +79,10 @@ const Home = (props) => {
                         }
                     </WrapperArticles>
                 </ContainerArtcl>
-                <BtnSeeMoreInformes onClick={limitHandler}>
-                  <h3>VER MÁS</h3>
+                <BtnSeeMoreInformes 
+                  disabled={posts.length === Full ? 'disabled' : null}
+                  onClick={limitHandler}>
+                    <h3>VER MÁS</h3>
                 </BtnSeeMoreInformes>
                 <ReactPaginate
                     previousLabel={'🡸'}
@@ -114,8 +117,12 @@ Home.getInitialProps = async ({ query }) => {
     }
 
     const posts = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=6&page=${page}`, object_fetch);
+    const postsFull = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data`, object_fetch);
 
-    return { Data: posts.data };
+    return { 
+      Data: posts.data,
+      DataFull: postsFull.data 
+    };
 }
     
 export default withRouter(Home);
@@ -181,6 +188,10 @@ const BtnSeeMoreInformes = styled.button`
   cursor: pointer;
   display: none;
   &:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  &:disabled {
     opacity: 0.5;
     transition: 0.3s;
   }
