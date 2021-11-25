@@ -41,6 +41,7 @@ Home.getInitialProps = async (ctx) => {
     }
   }
 
+
   try {
     responsePortada = await fetch(`${REACT_APP_ENDPOINT}/api/spotlight?site_id=larepublica&_id=60b543ddccd63768576e4afa&easy=1&status=1`, object_fetch)
     responsePortada = await responsePortada.json()

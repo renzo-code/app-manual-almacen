@@ -7,124 +7,152 @@ import Articles from '../components/Articles/default'
 import { useEffect, useState } from 'react';
 
 const ImagenDefault = "https://larepublica.pe/resizer/3KAU2WunY-i2T7mJEn9_Hti5DNc=/130x130/top/smart/s3.amazonaws.com/arc-authors/gruporepublica/5c0b3df8-490f-4b2d-916a-7181d6dc24b6.png"
-  
+
 const Home = (props) => {
 
-    const Full = props?.DataFull?.data?.packages?.data.length
+  const Full = props?.Data?.data?.packages?.total
+  const pages = Math.ceil(Full / 6);
+  const page = props?.Data?.data?.packages?.current_page;
+  const data = props?.Data?.data?.packages?.data;
+  const limit = props?.Data?.data?.packages?.per_page;
 
-    const pages = Math.ceil(Full/6);
-    const page =  props?.Data?.data?.packages?.current_page;
-    const data = props?.Data?.data?.packages?.data;
-    const limit =  props?.Data?.data?.packages?.per_page;
-    
-    const [posts, setPosts] = useState(data);
+  const currentPath = props.router.pathname;
+  const currentQuery = props.router.query;
 
-    const pagginationHandler = (page) => {
-      const currentPath = props.router.pathname;
-      const currentQuery = props.router.query;
-      currentQuery.page = page.selected + 1;
+  // console.log(process.env.REACT_APP_TOKEN)
+  // console.log(data)
 
-      props.router.push({
-          pathname: currentPath,
-          query: currentQuery,
-      });
-    };
+  const [titArr, setTitArr] = useState([])
 
-    useEffect(() => {
-        setPosts(data);
-    }, [props.router])
+  const darMas = () => {
+    currentQuery.limit = 7
 
-    const limitHandler = async() => {
-        const object_fetch = {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/menu',
-                'token_id': 'eac355Be7AEhhj222E18JChIE7j972573BAj2B1Eg4'
-            }
-        }
-        var newLimit = limit + posts.length;
-        const newPostAxios = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=${newLimit}`, object_fetch);
-        const newPost = newPostAxios?.data?.data?.packages?.data
-        
-        console.log(newPost, Full)
-        setPosts(newPost);
-    };
-    
-    return (
-        <Layout>
-            <Content>
-                <ContainerArtcl>
-                    <Title>INFORMES</Title>
-                    <WrapperArticles>
-                        {
-                            posts &&
-                            posts.map((item, i) => (
-                              <Articles
-                                key={i}
-                                redirect={item?.slug}
-                                picture={item?.data?.multimedia[0]?.path || ImagenDefault}
-                                description={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
-                                drafting={"LR Data"}
-                              />
-                          ))
-                            // data.filter(data => data.title != 'Data - [Home]').map((item, i) => (
-                            //     <Articles
-                            //       key={i}
-                            //       redirect={item?.slug}
-                            //       picture={item?.data?.multimedia[0]?.path || ImagenDefault}
-                            //       description={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
-                            //       drafting={"LR Data"}
-                            //     />
-                            // ))
-                        }
-                    </WrapperArticles>
-                </ContainerArtcl>
-                <BtnSeeMoreInformes 
-                  disabled={posts.length === Full ? 'disabled' : null}
-                  onClick={limitHandler}>
-                    <h3>VER MÁS</h3>
-                </BtnSeeMoreInformes>
-                <ReactPaginate
-                    previousLabel={'🡸'}
-                    nextLabel={'🡺'}
-                    breakLabel={'...'}
-                    breakClassName={'break-me'}
-                    activeClassName={'active'}
-                    containerClassName={'pagination'}
-                    subContainerClassName={'pages pagination'}
+    props.router.push({
+      pathname: currentPath,
+      query: currentQuery,
+    })
+  }
+  const darMenos = () => {
+    currentQuery.limit = 6
 
-                    initialPage={page - 1}
-                    pageCount={pages}
-                    marginPagesDisplayed={2}
-                    pageRangeDisplayed={5}
-                    onPageChange={pagginationHandler}
+    props.router.push({
+      pathname: currentPath,
+      query: currentQuery,
+    })
+  }
+
+  useEffect(() => {
+    data &&
+      data.map((item, i) => (
+        titArr[i] = item.title
+      ))
+
+    titArr.includes('Data - [Home]') ?
+      darMas() :
+      darMenos()
+
+  }, [currentQuery.page])
+
+
+  const [posts, setPosts] = useState(data);
+
+  const pagginationHandler = (page) => {
+
+    currentQuery.page = page.selected + 1;
+
+    props.router.push({
+      pathname: currentPath,
+      query: currentQuery,
+    });
+  };
+
+  useEffect(() => {
+    setPosts(data);
+  }, [props.router])
+
+  const limitHandler = async () => {
+    const object_fetch_2 = {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/menu',
+        'token_id': 'eac355Be7AEhhj222E18JChIE7j972573BAj2B1Eg4'
+      }
+    }
+    var newLimit = limit + posts.length;
+    const newPostAxios = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=${newLimit}&total=1`, object_fetch_2);
+    const newPost = newPostAxios?.data?.data?.packages?.data
+
+    setPosts(newPost);
+  };
+
+  return (
+    <Layout>
+      <Content>
+        <ContainerArtcl>
+          <Title>INFORMES</Title>
+          <WrapperArticles>
+            {
+              posts &&
+              posts.filter(data => data.title != 'Data - [Home]').map((item, i) => (
+                <Articles
+                  key={i}
+                  redirect={item?.slug}
+                  picture={item?.data?.multimedia[0]?.path || ImagenDefault}
+                  description={item?.title.split(" - ")[1]?.substring(0) || "LR Data"}
+                  drafting={"LR Data"}
                 />
-            </Content>
-        </Layout>
-    );
+              ))
+            }
+          </WrapperArticles>
+        </ContainerArtcl>
+        <BtnSeeMoreInformes
+          disabled={posts && posts.length === Full ? 'disabled' : null}
+          onClick={limitHandler}>
+          <h3>VER MÁS</h3>
+        </BtnSeeMoreInformes>
+        <ReactPaginate
+          previousLabel={'🡸'}
+          nextLabel={'🡺'}
+          breakLabel={'...'}
+          breakClassName={'break-me'}
+          activeClassName={'active'}
+          containerClassName={'pagination'}
+          subContainerClassName={'pages pagination'}
+
+          initialPage={page - 1}
+          pageCount={pages}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          onPageChange={pagginationHandler}
+        />
+      </Content>
+    </Layout>
+  );
 };
 
 Home.getInitialProps = async ({ query }) => {
 
-    const page = query.page || 1;
+  const page = query.page || 1;
+  const lmt = query.limit || 6;
 
-    const object_fetch = {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/menu',
-            'token_id': 'eac355Be7AEhhj222E18JChIE7j972573BAj2B1Eg4'
-        }
+  // const { REACT_APP_ENDPOINT, REACT_APP_TOKEN } = process.env
+
+  const object_fetch = {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/menu',
+      'token_id': 'eac355Be7AEhhj222E18JChIE7j972573BAj2B1Eg4'
     }
+    // 'eac355Be7AEhhj222E18JChIE7j972573BAj2B1Eg4'
+  }
 
-    const posts = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=6&page=${page}`, object_fetch);
-    const postsFull = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data`, object_fetch);
+  const posts = await axios.get(`https://cronosservices.glr.pe/api/content/package/list?site_id=larepublica&status=1&order_field=updated_at&subdomain=data&limit=${lmt}&page=${page}&total=1`, object_fetch);
 
-    return { 
-      Data: posts.data,
-      DataFull: postsFull.data 
-    };
+  return {
+    Data: posts.data
+  };
 }
-    
+
 export default withRouter(Home);
 
 const Content = styled.div`
