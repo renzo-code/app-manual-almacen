@@ -15,7 +15,6 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
         {
           DataSelecionEditor &&
           DataSelecionEditor.map((item, i) => (
-            console.log(item),
             <Articles
               key={i}
               redirect={item?.url}
@@ -46,9 +45,10 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
       </WrapperArticles>
 
       <CarouselArticlesEspeciales DataEspeciales={DataEspeciales} />
-      {/* <a className="WrapperBtn" href="/informes">
+
+      <a href="/informes?limit=7&page=1" target="_parent" className="WrapperBtn">
         <ButtonSeeMore nameBtn="VER TODOS LOS INFORMES"/>
-      </a> */}
+      </a> 
 
       <Title>LA UNIDAD</Title>
       <WrapperClumnistas>
