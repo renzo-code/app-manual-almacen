@@ -48,7 +48,7 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
 
       <a href="/informes?limit=7&page=1" target="_parent" className="WrapperBtn">
         <ButtonSeeMore nameBtn="VER TODOS LOS INFORMES"/>
-      </a>
+      </a> 
 
       <Title>LA UNIDAD</Title>
       <WrapperClumnistas>

@@ -19,9 +19,6 @@ const Home = (props) => {
   const currentPath = props.router.pathname;
   const currentQuery = props.router.query;
 
-  // console.log(process.env.REACT_APP_TOKEN)
-  // console.log(data)
-
   const [titArr, setTitArr] = useState([])
 
   const darMas = () => {
