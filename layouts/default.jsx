@@ -4,21 +4,6 @@ import NextHead from 'next/head'
 import Header from '../components/header/header'
 import Footer from '../components/footer/footer'
 
-const Wrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: #252525;
-`
-const ContainerMain = styled.main`
-  box-shadow: 1px 11px 10px 5px rgba(0,0,0,0.7);
-  max-width: 1440px;
-  width: 100%;
-  margin: auto;
-  padding: 0;
-  min-height: calc(100vh - 450px);
-  font-family: Arial, Helvetica, sans-serif;
-`
-
 const Layout = (props) => {
   const {
     children
@@ -40,6 +25,11 @@ const Layout = (props) => {
         {/* <meta name="description" content=""/> */}
         <meta httpEquiv="content-language" content="es"/>
         <meta name="author" content="LR Data"/>
+
+        <meta name="googlebot" content="index,follow"/>
+        <meta name="bingbot" content="index,follow"/>
+        <meta name="robots" content="max-image-preview:large"/>
+        <link rel="alternate" type="application/rss+xml" href="https://cdn.mysitemapgenerator.com/shareapi/rss/2806433641"/>
       </NextHead>
       <Wrapper>
         <Header/>
@@ -53,3 +43,18 @@ const Layout = (props) => {
 }
 
 export default Layout
+
+const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: #252525;
+`
+const ContainerMain = styled.main`
+  box-shadow: 1px 11px 10px 5px rgba(0,0,0,0.7);
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  min-height: calc(100vh - 450px);
+  font-family: Arial, Helvetica, sans-serif;
+`

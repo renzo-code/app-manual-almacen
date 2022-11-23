@@ -3,6 +3,7 @@ import ContentHome from '../components/ContentHome/default'
 import { prop } from 'ramda'
 import styled from 'styled-components'
 import CarouselPortada from '../components/CarouselPortada/default'
+import SocialBar from '../components/SocialBar/default'
 
 const URL = process.env.REACT_APP_ENDPOINT
 const TOKEN_ID = process.env.REACT_APP_TOKEN
@@ -21,6 +22,7 @@ const Home = ({ portada, article, articleEspeciales, BlockLaUnidad }) => {
           DataEspeciales={DataEspeciales} 
           DataLaUnidad={DataLaUnidad} 
         />
+        {/* <SocialBar/> */}
       </Content>
     </Layout>
   )

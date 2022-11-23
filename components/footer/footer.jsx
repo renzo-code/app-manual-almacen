@@ -57,7 +57,7 @@ const Footer = () => {
             Columnistas
           </Redirect>
           <Redirect href="https://larepublica.pe/elecciones/">
-            Elecciones 2021
+            Elecciones 2022
           </Redirect>
           <Redirect href="https://larepublica.pe/horoscopo/2021/06/17/horoscopo-de-hoy-jueves-17-de-junio-de-2021-consulta-tus-predicciones-atmp/">
             Horóscopo

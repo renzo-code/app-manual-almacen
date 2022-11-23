@@ -1,68 +1,222 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-  <loc>https://data.larepublica.pe/</loc>
-  <lastmod>2021-11-14T14:17:07+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/14n-una-deuda-sin-saldar-recuento-heridas-aun-abiertas-y-lenta-justicia/</loc>
-  <lastmod>2021-11-14T14:13:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/claves-de-iguain-como-un-empobrecido-distrito-redujo-indice-anemia/</loc>
-  <lastmod>2021-10-28T16:15:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/malecon-castagnola-sombras-irregularidades-detras-de-la-obra/</loc>
-  <lastmod>2021-10-29T22:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/avance-vacunacion-covid-19-peru/</loc>
-  <lastmod>2021-11-08T21:25:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/envivo-casos-confirmados-muertes-coronavirus-peru/</loc>
-  <lastmod>2021-11-22T15:25:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/mariscal-ramon-castilla-una-provincia-condenada-al-abandono/</loc>
-  <lastmod>2021-10-11T01:24:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/abandono-escolar-2020-radiografia-educacion/</loc>
-  <lastmod>2021-04-19T19:43:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/ciudades-peruanas-sin-planificacion-con-documentos-vacios-y-crecimiento-informal/</loc>
-  <lastmod>2021-09-16T23:01:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/la-ninez-sin-familia-menores-con-discapacidad-a-la-cola-de-las-adopciones/</loc>
-  <lastmod>2021-09-10T17:38:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/entre-exitos-regionales-y-metas-incumplidas-tras-las-cifras-reales-de-la-vacunaton/</loc>
-  <lastmod>2021-09-02T16:58:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/ollas-comunes-reciben-migajas-y-las-raciones-no-alcanzan/</loc>
-  <lastmod>2021-08-31T16:14:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://data.larepublica.pe/ollas-comunes-fantasmas-un-golpe-bajo-a-la-emergencia-alimentaria/</loc>
-  <lastmod>2021-08-19T17:52:44+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <url>
+    <loc>https://data.larepublica.pe/</loc>
+    <lastmod>2022-06-23T17:38:49+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ley-de-cancer-infantil-aun-no-se-ejecuta-faltan-especialistas-y-entrega-de-subsidios/</loc>
+    <lastmod>2022-06-25T19:01:42+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/nuevas-elecciones-misma-norma-cuota-indigena-sigue-sin-garantizar-representatividad/</loc>
+    <lastmod>2022-06-20T22:53:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/resistir-sin-agua-y-en-desigualdad-en-ventanilla/</loc>
+    <lastmod>2022-06-10T15:17:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/avance-vacunacion-covid-19-peru/</loc>
+    <lastmod>2022-04-11T21:57:16+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/envivo-casos-confirmados-muertes-coronavirus-peru/</loc>
+    <lastmod>2022-06-24T20:25:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/metropolitano-irregularidades-y-motivos-detras-del-retraso-de-ampliacion-hasta-carabayllo/</loc>
+    <lastmod>2022-04-30T03:35:21+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/narcobenefactores-el-tributo-del-narcotrafico-en-los-margenes-de-la-amazonia-peruana/</loc>
+    <lastmod>2022-03-14T17:27:41+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/peru-libre-sentenciados-y-acusados-buscan-ocupar-gobiernos-regionales/</loc>
+    <lastmod>2022-06-07T14:28:32+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/mujeres-afroperuanas-son-mas-vulnerables-ante-el-cambio-climatico/</loc>
+    <lastmod>2022-06-02T19:08:56+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/los-precandidatos-de-lima-que-saltan-de-un-partido-a-otro-buscando-ganar-una-eleccion/</loc>
+    <lastmod>2022-05-21T03:40:07+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/congreso-atenta-contra-la-educacion-sexual-pese-al-aumento-de-violaciones-a-ninas-ninos-y-adolescentes/</loc>
+    <lastmod>2022-05-13T17:28:57+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/informes/</loc>
+    <lastmod>2022-06-23T19:02:23+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/sin-cobertura-para-salud-mental-aseguradoras-privadas-excluyen-tratamientos-y-el-estado-no-se-da-abasto/</loc>
+    <lastmod>2022-05-09T17:03:50+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/derecho-de-mas-de-un-millon-de-estudiantes-indigenas-en-riesgo-por-recategorizacion-de-colegios-eib/</loc>
+    <lastmod>2022-05-02T20:13:50+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/la-disputa-legal-del-hospital-larco-herrera-con-riesgo-de-desalojo-y-limitaciones-en-su-infraestructura/</loc>
+    <lastmod>2022-04-18T22:56:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/riesgos-inminentes-hay-1902-zonas-criticas-en-peru-incluida-retamas/</loc>
+    <lastmod>2022-03-30T18:47:40+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/congreso-cada-52-dias-se-presenta-una-mocion-contra-el-gobierno/</loc>
+    <lastmod>2022-03-28T18:16:46+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/indulto-a-fujimori-todos-los-caminos-lo-llevan-de-vuelta-al-penal-de-barbadillo/</loc>
+    <lastmod>2022-03-19T15:25:13+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/capacidad-sanitaria-en-peru-cuanto-cambio-nuestro-sistema-de-respuesta-a-dos-anos-de-la-pandemia/</loc>
+    <lastmod>2022-03-16T14:15:56+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/el-bullying-sigue-en-las-aulas-con-estrategias-insuficientes-y-la-desidia-ante-esta-violencia/</loc>
+    <lastmod>2022-06-08T17:31:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/el-dengue-una-amenaza-latente-con-menos-presupuesto-y-una-desigual-atencion-ante-la-covid-19/</loc>
+    <lastmod>2022-03-03T19:52:32+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/estudiantes-sin-ruta-la-estrategia-de-las-universidades-que-pretenden-sabotear-a-la-sunedu/</loc>
+    <lastmod>2022-05-13T23:33:35+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/pruebas-rapidas-serologicas-contra-la-covid-19-aun-se-registran-a-pesar-de-su-cuestionamiento/</loc>
+    <lastmod>2022-01-13T18:42:15+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/procesamiento-de-pruebas-covid-19-una-vigilancia-deficiente-antes-de-la-tercera-ola/</loc>
+    <lastmod>2022-01-11T04:18:09+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/agua-potable-un-derecho-negado-a-medio-loreto/</loc>
+    <lastmod>2021-12-23T17:25:49+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/vacunacion-contra-la-covid-19-un-proceso-desigual-y-con-deudas-pendientes/</loc>
+    <lastmod>2021-12-23T17:30:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ciudades-ciegas-crecer-y-planificar-sin-saber-lo-que-hay-en-el-territorio/</loc>
+    <lastmod>2021-12-23T17:36:53+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/puno-madre-de-dios-precariedad-desinformacion-frenan-vacunacion-covid-19/</loc>
+    <lastmod>2022-02-01T15:45:24+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/14n-una-deuda-sin-saldar-recuento-heridas-aun-abiertas-y-lenta-justicia/</loc>
+    <lastmod>2021-11-14T14:13:49+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/malecon-castagnola-sombras-irregularidades-detras-de-la-obra/</loc>
+    <lastmod>2021-10-29T22:47:08+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/docentes-sin-certezas-luego-18-meses-lejos-de-las-aulas/</loc>
+    <lastmod>2021-10-11T14:43:27+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/mariscal-ramon-castilla-una-provincia-condenada-al-abandono/</loc>
+    <lastmod>2021-10-11T01:24:08+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ciudades-peruanas-sin-planificacion-con-documentos-vacios-y-crecimiento-informal/</loc>
+    <lastmod>2021-09-16T23:01:56+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/la-ninez-sin-familia-menores-con-discapacidad-a-la-cola-de-las-adopciones/</loc>
+    <lastmod>2021-09-10T17:38:45+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/entre-exitos-regionales-y-metas-incumplidas-tras-las-cifras-reales-de-la-vacunaton/</loc>
+    <lastmod>2021-09-02T16:58:16+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ollas-comunes-reciben-migajas-y-las-raciones-no-alcanzan/</loc>
+    <lastmod>2021-08-31T16:14:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/despegue-en-el-sur-las-claves-de-tacna-para-vacunar-a-un-tercio-de-su-poblacion/</loc>
+    <lastmod>2021-08-13T20:10:05+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ollas-comunes-fantasmas-un-golpe-bajo-a-la-emergencia-alimentaria/</loc>
+    <lastmod>2021-08-19T17:52:44+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/exodo-haitiano-en-sudamerica-otra-tragedia-humanitaria/</loc>
+    <lastmod>2021-08-10T21:16:36+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/menores-adoptados-ilegalmente-victimas-no-reconocidas-de-la-trata-de-personas/</loc>
+    <lastmod>2021-08-10T21:11:21+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/el-calvario-de-la-pandemia-en-el-extremo-de-la-amazonia-peruana/</loc>
+    <lastmod>2021-08-10T21:09:31+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/busqueda-de-una-vivienda-social-entre-la-falta-de-planificacion-y-politicas-sin-vigencia/</loc>
+    <lastmod>2021-08-10T21:14:12+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/diego-armando-maradona-muere-a-los-60-anos/</loc>
+    <lastmod>2020-11-25T18:48:14+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>

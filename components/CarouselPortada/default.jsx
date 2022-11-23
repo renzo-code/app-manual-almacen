@@ -63,7 +63,7 @@ const CarouselPortada = ({ DataPortada }) => {
         width: 100%
       }
       .SliderTitle h2 {
-        width: 94%;
+        width: 96%;
         color: #fff;
         font-family: Lato, sans-serif;
         font-size: 40px;
@@ -73,7 +73,7 @@ const CarouselPortada = ({ DataPortada }) => {
         text-shadow: rgb(0, 0, 0) 0px 0px 0.2em, rgb(0, 0, 0) 0px 0px 0.2em, rgb(0, 0, 0) 0px 0px 0.2em;
       }
       .title-principal {
-        margin-bottom: 21px;
+        margin-bottom: 30px;
       }
       .SliderSubtitle {
         display: flex;
@@ -83,7 +83,7 @@ const CarouselPortada = ({ DataPortada }) => {
         align-items: center;
         z-index: 10;
         align-items: center;
-        max-width: 71%;
+        max-width: 94%;
         margin: -54px 0px;
       }
       .subtitle {
@@ -95,11 +95,19 @@ const CarouselPortada = ({ DataPortada }) => {
         width: 100%;
         line-height: 1.3;
         text-shadow: rgb(0, 0, 0) 0px 0px 0.2em, rgb(0, 0, 0) 0px 0px 0.2em, rgb(0, 0, 0) 0px 0px 0.2em;
-        margin-top: 15%;
+        margin-top: 11%;
       }
       .imgSlider {
         height: 100%;
         width: 100%;
+      }
+      @media only screen and (min-width: 1376px) {
+        .subtitle {
+          margin-top: 14%;
+        }
+        .SliderTitle h2 {
+          margin-bottom: 15px;
+        }
       }
       @media only screen and (max-width: 1291px) {
         .SliderTitle h2 {
@@ -108,19 +116,30 @@ const CarouselPortada = ({ DataPortada }) => {
         }
         .subtitle {
           font-size: 15px;
+          margin-top: 15%;
+        }
+      }
+      @media only screen and (min-width: 1348px) {
+        .subtitle {
+          margin-top: 12%;
+        }
+        .title-principal {
+          margin-bottom: 40px;
+        }
+      }
+      @media only screen and (min-width: 1291px) {
+        .SliderTitle h2 {
+          font-size: 36px;
         }
       }
       @media only screen and (max-width: 1011px) {
-        .subtitle {
-          margin-top: 20%;
-        }
         .SliderTitle h2 {
           font-size: 28px;
         }
       }
       @media only screen and (max-width: 900px) {
-        .SliderSubtitle {
-          display: none;
+        .subtitle {
+          display: none ;
         }
         .SliderTitle {
           height: 145%;

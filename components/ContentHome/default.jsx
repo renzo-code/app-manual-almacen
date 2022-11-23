@@ -46,7 +46,7 @@ const ContentHome = ({ DataSelecionEditor, DataEspeciales, DataLaUnidad }) => {
 
       <CarouselArticlesEspeciales DataEspeciales={DataEspeciales} />
 
-      <a href="/informes?limit=7&page=1" target="_parent" className="WrapperBtn">
+      <a href="https://data.larepublica.pe/informes" target="_parent" className="WrapperBtn">
         <ButtonSeeMore nameBtn="VER TODOS LOS INFORMES"/>
       </a> 
 
@@ -81,7 +81,7 @@ const ContainerArtcl = styled.div`
   height: 100%;
   width: 100%;
 `
-const Title = styled.h1`
+const Title = styled.h2`
   text-align: center;
   font-size: 30px;
   color: white;

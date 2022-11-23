@@ -41,7 +41,7 @@ const Image = styled.img`
   height: 100%;
   object-fit: cover;
 `
-const Description = styled.h4`
+const Description = styled.h3`
   color: white;
   font-weight: 600;
   max-width: 263px;

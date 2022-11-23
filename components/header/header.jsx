@@ -16,10 +16,10 @@ const Header = () => {
 
         <ContentHeader>
           <WrapperLogo>
-            <LogoLrData src="/img/Logo_web_LRData.png"/>
+            <LogoLrData src="./img/Logo_web_LRData.png"/>
           </WrapperLogo>
           <WrapperLogoResponsive>
-            <LogoLrDataResponsive src="/img/Logo_Responsive_LRData.png" />
+            <LogoLrDataResponsive src="./img/Logo_Responsive_LRData.png" />
           </WrapperLogoResponsive>
         </ContentHeader>
       </ContentItems>
