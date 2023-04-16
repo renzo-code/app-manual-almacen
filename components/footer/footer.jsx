@@ -11,13 +11,15 @@ const Footer = () => {
         <ContentText>
           <BlockText>
             <h1>INFORMACIÓN</h1>
-            <h2>Hombres</h2>
-            <h2>Mujeres</h2>
-            <h2>Niños</h2>
-            <h2>Accesorios</h2>
+            <br/>
+            <h2>App para móvil y desktop</h2>
+            <h2>Aplicación de Almacén</h2>
+            <h2>Mejora la busqueda e identificacion de los productos</h2>
+            <h2>App intuitiva para todos los usuarios</h2>
           </BlockText>
           <BlockText2>
             <h1>INFORMACIÓN DE CONTACTO</h1>
+            <br/>
             <h3>
               <div>
                 <img src="./img/location.png" alt="icon"/>
@@ -42,6 +44,12 @@ const Footer = () => {
               </div>
               pt06790215@idat.edu.pe
             </h3>
+            <h3>
+              <div>
+                <img src="./img/user.png" style={{backgroundColor: "white"}} alt="icon"/>
+              </div>
+              CEO: JOSE LUIS CHUQUIPIONDO
+            </h3>
           </BlockText2>
         </ContentText>
       </WrapperInfo>
@@ -55,39 +63,6 @@ const Footer = () => {
 }
 
 export default Footer
-
-// const ContainerFooter = styled.div`
-//   display: flex;
-//   align-items: center;
-//   padding: 20px 10px;
-//   width: 100%;
-//   height: auto;
-//   padding-top: 20px;
-//   margin: 0 auto 0;
-//   padding-bottom: 20px;
-//   background-color: black;
-//   color: white;
-
-//   h1{
-//     font-weight: bold;
-//     letter-spacing: .5px;
-//     font-size: 16px;
-//   }
-
-//   @media (max-width: 600px) {
-//     display: block;
-//   }
-// `
-// const WrapperImg = styled.div`
-//   width: 200px;
-//   margin-right: 20px;
-
-//   img{
-//     width: 100%;
-//     height: auto;
-//   }
-// `
-
 
 
 const ContainerFooter = styled.div`
@@ -128,10 +103,11 @@ const ContentText = styled.div`
   width: calc(100% - 300px);
   height: 100%;
   padding: 0 50px;
-  min-width: 480px;
 
   @media (max-width: 865px){
     padding: 0;
+    display: block;
+    width: 100%;
   }
   /* @media (max-width: 537px){
     display: block;
@@ -140,6 +116,8 @@ const ContentText = styled.div`
 const BlockText = styled.div`
   text-align: center;
   color: white;
+  margin-bottom: 25px;
+
   h1{
     font-size: 20px;
     font-weight: bolder;
@@ -216,6 +194,7 @@ const BlockText2 = styled.div`
       img{
         width: 100%;
         height: 100%;
+        ${'' /* margin-right: 5px; */}
       }
     }
 
