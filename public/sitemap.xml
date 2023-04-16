@@ -1,102 +1,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://data.larepublica.pe/</loc>
-    <lastmod>2022-06-23T17:38:49+00:00</lastmod>
+    <lastmod>2023-01-27T23:04:06+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/ley-de-cancer-infantil-aun-no-se-ejecuta-faltan-especialistas-y-entrega-de-subsidios/</loc>
-    <lastmod>2022-06-25T19:01:42+00:00</lastmod>
+    <loc>https://data.larepublica.pe/marcha-en-lima-regiones-que-protestan-en-paro-nacional-registran-alta-pobreza-trabajo-informal-y-bajo-progreso-social/</loc>
+    <lastmod>2023-01-27T23:56:18+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/nuevas-elecciones-misma-norma-cuota-indigena-sigue-sin-garantizar-representatividad/</loc>
-    <lastmod>2022-06-20T22:53:41+00:00</lastmod>
+    <loc>https://data.larepublica.pe/paro-nacional-un-recuento-de-lo-que-se-vivio-en-las-manifestaciones-de-la-denominada-toma-de-lima-del-19-de-enero/</loc>
+    <lastmod>2023-01-24T15:47:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/resistir-sin-agua-y-en-desigualdad-en-ventanilla/</loc>
-    <lastmod>2022-06-10T15:17:43+00:00</lastmod>
+    <loc>https://data.larepublica.pe/marcha-en-lima-testimonios-de-manifestantes-del-paro-nacional-alojados-en-la-universidad-san-marcos-unmsm-19-de-enero/</loc>
+    <lastmod>2023-01-19T21:11:09+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/avance-vacunacion-covid-19-peru/</loc>
-    <lastmod>2022-04-11T21:57:16+00:00</lastmod>
+    <loc>https://data.larepublica.pe/freddy-diaz-congresista-blindado-por-pleno-a-casi-seis-meses-de-denuncia-penal-en-fiscalia-por-violacion-sexual/</loc>
+    <lastmod>2023-01-17T02:56:45+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/envivo-casos-confirmados-muertes-coronavirus-peru/</loc>
-    <lastmod>2022-06-24T20:25:44+00:00</lastmod>
+    <loc>https://data.larepublica.pe/pais-en-vilo-68-por-ciento-de-las-mesas-de-dialogo-por-conflictos-sociales-se-instalo-despues-de-algun-hecho-de-violencia/</loc>
+    <lastmod>2022-12-17T15:22:47+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/metropolitano-irregularidades-y-motivos-detras-del-retraso-de-ampliacion-hasta-carabayllo/</loc>
-    <lastmod>2022-04-30T03:35:21+00:00</lastmod>
+    <loc>https://data.larepublica.pe/hay-31-postas-y-hospitales-inconclusos-en-el-peru-uno-de-ellos-tiene-cerca-de-14-anos-de-construccion/</loc>
+    <lastmod>2022-11-29T16:22:28+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/narcobenefactores-el-tributo-del-narcotrafico-en-los-margenes-de-la-amazonia-peruana/</loc>
-    <lastmod>2022-03-14T17:27:41+00:00</lastmod>
+    <loc>https://data.larepublica.pe/pasivos-ambientales-los-residuos-de-la-mineria-que-nadie-quiere-asumir/</loc>
+    <lastmod>2022-08-26T00:03:58+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/peru-libre-sentenciados-y-acusados-buscan-ocupar-gobiernos-regionales/</loc>
-    <lastmod>2022-06-07T14:28:32+00:00</lastmod>
+    <loc>https://data.larepublica.pe/repsol-derrame-de-petroleo-en-peru-compania-pago-investigaciones-y-ministerio-de-salud-no-atiende-por-la-contaminacion-minsa/</loc>
+    <lastmod>2023-01-17T15:10:39+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/mujeres-afroperuanas-son-mas-vulnerables-ante-el-cambio-climatico/</loc>
-    <lastmod>2022-06-02T19:08:56+00:00</lastmod>
+    <loc>https://data.larepublica.pe/derrame-de-petroleo-de-repsol-afectados-aseguran-que-firmaron-acuerdos-extrajudiciales-por-necesidad-ventanilla-ancon-minam/</loc>
+    <lastmod>2023-01-15T22:22:09+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/los-precandidatos-de-lima-que-saltan-de-un-partido-a-otro-buscando-ganar-una-eleccion/</loc>
-    <lastmod>2022-05-21T03:40:07+00:00</lastmod>
+    <loc>https://data.larepublica.pe/mujeres-y-menores-en-peligro-este-2022-el-ano-en-que-el-congreso-freno-el-avance-en-la-conquista-de-sus-derechos/</loc>
+    <lastmod>2023-01-04T00:31:51+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/congreso-atenta-contra-la-educacion-sexual-pese-al-aumento-de-violaciones-a-ninas-ninos-y-adolescentes/</loc>
-    <lastmod>2022-05-13T17:28:57+00:00</lastmod>
+    <loc>https://data.larepublica.pe/peru-cierra-el-ano-escolar-con-casi-2500-casos-de-bullying-la-cifra-mas-alta-en-9-anos/</loc>
+    <lastmod>2022-12-27T19:47:11+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://data.larepublica.pe/informes/</loc>
-    <lastmod>2022-06-23T19:02:23+00:00</lastmod>
+    <lastmod>2023-01-27T23:07:04+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/sin-cobertura-para-salud-mental-aseguradoras-privadas-excluyen-tratamientos-y-el-estado-no-se-da-abasto/</loc>
-    <lastmod>2022-05-09T17:03:50+00:00</lastmod>
+    <loc>https://data.larepublica.pe/regiones-ejecutaron-solo-un-31-por-ciento-del-presupuesto-para-mejoramiento-en-infraestructura-en-salud/</loc>
+    <lastmod>2022-10-28T16:12:34+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/derecho-de-mas-de-un-millon-de-estudiantes-indigenas-en-riesgo-por-recategorizacion-de-colegios-eib/</loc>
-    <lastmod>2022-05-02T20:13:50+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/la-disputa-legal-del-hospital-larco-herrera-con-riesgo-de-desalojo-y-limitaciones-en-su-infraestructura/</loc>
-    <lastmod>2022-04-18T22:56:00+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/riesgos-inminentes-hay-1902-zonas-criticas-en-peru-incluida-retamas/</loc>
-    <lastmod>2022-03-30T18:47:40+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/congreso-cada-52-dias-se-presenta-una-mocion-contra-el-gobierno/</loc>
-    <lastmod>2022-03-28T18:16:46+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/indulto-a-fujimori-todos-los-caminos-lo-llevan-de-vuelta-al-penal-de-barbadillo/</loc>
-    <lastmod>2022-03-19T15:25:13+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/capacidad-sanitaria-en-peru-cuanto-cambio-nuestro-sistema-de-respuesta-a-dos-anos-de-la-pandemia/</loc>
-    <lastmod>2022-03-16T14:15:56+00:00</lastmod>
+    <loc>https://data.larepublica.pe/congreso-atenta-contra-la-educacion-sexual-pese-al-aumento-de-violaciones-a-ninas-ninos-y-adolescentes/</loc>
+    <lastmod>2022-05-13T17:28:57+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -105,13 +80,133 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/el-dengue-una-amenaza-latente-con-menos-presupuesto-y-una-desigual-atencion-ante-la-covid-19/</loc>
-    <lastmod>2022-03-03T19:52:32+00:00</lastmod>
+    <loc>https://data.larepublica.pe/historias-del-2022-tareas-pendientes-en-salud-seguridad-ciudadana-comunidades-peru-noticias/</loc>
+    <lastmod>2023-01-03T23:04:31+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/estudiantes-sin-ruta-la-estrategia-de-las-universidades-que-pretenden-sabotear-a-la-sunedu/</loc>
-    <lastmod>2022-05-13T23:33:35+00:00</lastmod>
+    <loc>https://data.larepublica.pe/el-camino-que-llevo-a-pedro-castillo-a-dar-golpe-de-estado/</loc>
+    <lastmod>2022-12-08T03:41:11+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/que-sucedera-con-pedro-castillo-tras-intentar-dar-golpe-de-estado-y-romper-el-orden-constitucional/</loc>
+    <lastmod>2022-12-08T18:36:29+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/congresistas-no-justificaron-sus-181-faltas-en-comisiones-parlamentarias-y-no-se-les-desconto/</loc>
+    <lastmod>2022-12-06T14:49:58+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/constitucion-en-disputa-congreso-ha-presentado-154-pl-de-reforma-constitucional-en-menos-de-un-ano-y-medio/</loc>
+    <lastmod>2022-11-26T02:16:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/politicas-habitacionales-benefician-a-personas-con-mas-ingresos-mientras-aumenta-deficit-en-sectores-D-E-bonos-vivienda/</loc>
+    <lastmod>2022-12-30T16:12:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/petroperu-debe-casi-22-millones-de-soles-por-infracciones-en-oleoducto-norperuano-que-deberan-pagarse-con-dinero-publico/</loc>
+    <lastmod>2022-11-23T21:44:53+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/inversiones-de-infraestructura-natural-paralizadas-en-comunidades-con-deficit-del-agua-seguridad-hidrica/</loc>
+    <lastmod>2022-11-11T16:09:22+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/informe-del-congreso-que-investigo-el-caso-sodalicio-permanece-en-el-archivo-tras-3-anos-listo-para-debatirse/</loc>
+    <lastmod>2022-11-05T00:58:22+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/siete-candidatos-distritales-perdieron-contra-los-votos-en-blanco-y-nulos-pese-a-ser-los-unicos-postulantes/</loc>
+    <lastmod>2022-10-17T22:44:27+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/territorios-del-miedo-lima-y-la-libertad-sometidas-por-la-extorsion/</loc>
+    <lastmod>2022-11-04T21:41:32+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/13-gobernadores-electos-y-al-menos-un-candidato-en-siete-regiones-que-iran-a-segunda-vuelta-estan-acusados-de-corrupcion/</loc>
+    <lastmod>2022-10-12T19:59:54+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/14-excongresistas-con-un-historial-de-vacancias-y-blindajes-postulan-a-las-alcaldias-distritales-en-lima-metropolitana/</loc>
+    <lastmod>2022-09-30T22:50:41+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/16-de-51-propuestas-son-viables-para-el-fenomeno-de-las-drogas-en-comas-rimac-san-martin-de-porres-y-villa-el-salvador/</loc>
+    <lastmod>2022-09-29T23:29:54+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/mas-de-un-candidato-con-denuncias-policiales-se-presenta-en-41-de-las-42-alcaldias-distritales-de-lima-metropolitana/</loc>
+    <lastmod>2022-09-20T23:54:49+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/devida-afirma-que-creciente-demanda-de-cocaina-expone-a-la-amazonia-y-sus-pueblos-indigenas/</loc>
+    <lastmod>2022-09-12T13:54:12+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ricardo-soberon-presidente-de-devida-el-narcotrafico-puede-desaparecer-a-los-pueblos-indigenas-entrevista/</loc>
+    <lastmod>2022-09-12T23:31:38+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/89-candidatos-con-antecedentes-de-corrupcion-aspiran-a-los-cargos-regionales-de-gobernador-y-vicegobernador/</loc>
+    <lastmod>2022-08-30T13:45:25+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/solo-hay-un-resonador-magnetico-operativo-por-cada-10000-pacientes-con-cancer/</loc>
+    <lastmod>2022-10-24T20:10:39+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/viruela-del-mono-en-peru-entre-la-discriminacion-y-las-acciones-lentas-de-las-autoridades/</loc>
+    <lastmod>2022-08-11T16:30:37+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/del-congreso-que-votamos-al-congreso-que-tenemos-renuncias-expulsiones-cambios-y-nuevas-bancadas/</loc>
+    <lastmod>2022-08-06T12:17:20+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/un-ano-de-gobierno-de-pedro-castillo-un-breve-recuento-de-las-promesas-incumplidas/</loc>
+    <lastmod>2022-07-28T18:02:02+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/resistir-sin-agua-y-en-desigualdad-en-ventanilla/</loc>
+    <lastmod>2023-01-03T23:09:05+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/los-precandidatos-de-lima-que-saltan-de-un-partido-a-otro-buscando-ganar-una-eleccion/</loc>
+    <lastmod>2022-09-05T21:33:09+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/metropolitano-irregularidades-y-motivos-detras-del-retraso-de-ampliacion-hasta-carabayllo/</loc>
+    <lastmod>2022-10-29T18:37:12+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/narcobenefactores-el-tributo-del-narcotrafico-en-los-margenes-de-la-amazonia-peruana/</loc>
+    <lastmod>2022-03-14T17:27:41+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -140,23 +235,8 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/puno-madre-de-dios-precariedad-desinformacion-frenan-vacunacion-covid-19/</loc>
-    <lastmod>2022-02-01T15:45:24+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
     <loc>https://data.larepublica.pe/14n-una-deuda-sin-saldar-recuento-heridas-aun-abiertas-y-lenta-justicia/</loc>
     <lastmod>2021-11-14T14:13:49+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/malecon-castagnola-sombras-irregularidades-detras-de-la-obra/</loc>
-    <lastmod>2021-10-29T22:47:08+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://data.larepublica.pe/docentes-sin-certezas-luego-18-meses-lejos-de-las-aulas/</loc>
-    <lastmod>2021-10-11T14:43:27+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -215,8 +295,63 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://data.larepublica.pe/diego-armando-maradona-muere-a-los-60-anos/</loc>
-    <lastmod>2020-11-25T18:48:14+00:00</lastmod>
-    <priority>0.64</priority>
+    <loc>https://data.larepublica.pe/envivo-casos-confirmados-muertes-coronavirus-peru/</loc>
+    <lastmod>2022-12-05T20:48:12+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/sin-cobertura-para-salud-mental-aseguradoras-privadas-excluyen-tratamientos-y-el-estado-no-se-da-abasto/</loc>
+    <lastmod>2022-05-09T17:03:50+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/suplantacion-de-identidad-en-linea-incrementan-denuncias-pero-no-hay-responsables/</loc>
+    <lastmod>2022-07-20T14:56:06+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/indulto-a-fujimori-todos-los-caminos-lo-llevan-de-vuelta-al-penal-de-barbadillo/</loc>
+    <lastmod>2022-03-19T15:25:13+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/congreso-cada-52-dias-se-presenta-una-mocion-contra-el-gobierno/</loc>
+    <lastmod>2022-03-28T18:16:46+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/peru-libre-sentenciados-y-acusados-buscan-ocupar-gobiernos-regionales/</loc>
+    <lastmod>2022-06-07T14:28:32+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/cuarta-ola-de-covid-19-aumentan-contagios-y-aun-hay-3-millones-de-personas-sin-ninguna-dosis/</loc>
+    <lastmod>2022-07-20T21:45:26+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/el-dengue-una-amenaza-latente-con-menos-presupuesto-y-una-desigual-atencion-ante-la-covid-19/</loc>
+    <lastmod>2022-03-03T19:52:32+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/ley-de-cancer-infantil-aun-no-se-ejecuta-faltan-especialistas-y-entrega-de-subsidios/</loc>
+    <lastmod>2022-06-25T19:01:42+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/derecho-de-mas-de-un-millon-de-estudiantes-indigenas-en-riesgo-por-recategorizacion-de-colegios-eib/</loc>
+    <lastmod>2022-05-02T20:13:50+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/la-disputa-legal-del-hospital-larco-herrera-con-riesgo-de-desalojo-y-limitaciones-en-su-infraestructura/</loc>
+    <lastmod>2022-04-18T22:56:00+00:00</lastmod>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://data.larepublica.pe/avance-vacunacion-covid-19-peru/</loc>
+    <lastmod>2022-07-04T16:43:10+00:00</lastmod>
+    <priority>0.41</priority>
   </url>
 </urlset>

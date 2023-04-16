@@ -24,26 +24,28 @@ const CarouselPortada = ({ DataPortada }) => {
           DataPortada &&
           DataPortada.map((item, index) => {
             return (
-              <SwiperSlide>
-                <div key={index}>
-                  <a className="redirec_slider"
-                    href={item?.url}
-                    target="_parent"
-                  >
-                    <div className="SliderTitle">
-                      <h2 className="title-principal">{item?.title?.split(" - ")[0]}</h2>
-                      <div className="SliderSubtitle">
-                        <h5 className="subtitle">{item?.title?.split(" - ")[1]}</h5>
+              <>
+                <SwiperSlide>
+                  <div key={index}>
+                    <a className="redirec_slider"
+                      href={item?.url}
+                      target="_parent"
+                    >
+                      <div className="SliderTitle">
+                        <h2 className="title-principal">{item?.title?.split(" - ")[0]}</h2>
+                        <div className="SliderSubtitle">
+                          <h5 className="subtitle">{item?.title?.split(" - ")[1]}</h5>
+                        </div>
                       </div>
-                    </div>
-                    <img
-                      className="imgSlider slide_img"
-                      src={item?.image?.url_origin || item?.image?.url}
-                      alt={'slider' + index}
-                    />
-                  </a>
-                </div>
-              </SwiperSlide>
+                      <img
+                        className="imgSlider slide_img"
+                        src={item?.image?.url_origin || item?.image?.url}
+                        alt={item?.title?.split(" - ")[0]}
+                      />
+                    </a>
+                  </div>
+                </SwiperSlide>
+              </>
             )
           })
         }
@@ -51,6 +53,9 @@ const CarouselPortada = ({ DataPortada }) => {
       <style jsx>{`
       .redirec_slider {
         height: 100%;
+      }
+      .TitleSEO{
+        display: none;
       }
       .SliderTitle {
         align-items: center;
