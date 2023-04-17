@@ -4,13 +4,6 @@ import styled from 'styled-components'
 const Acordeon = () => {
   return (
     <>
-              {/* <h1 className='ask'>-¿Cómo recuperar mi usuario o contraseña?</h1>
-          <h1 className='ask'>-¿Cómo registro un producto?</h1>
-          <h1 className='ask'>-¿Cómo registro proveedores?</h1>
-          <h1 className='ask'>-¿Cómo puedo buscar un producto?</h1>
-          <h1 className='ask'>-¿Cómo agregar una ubicación a un producto?</h1>
-          <h1 className='ask'>-¿Cómo creo una nueva cuenta?</h1>
-          <h1 className='ask'>-¿Cómo puedo puedo comunicarme con ustedes?</h1> */}
       <div className="row">
         <div className="col">
           <div className="tabs">
@@ -47,7 +40,29 @@ const Acordeon = () => {
               <div className="tab-content">
                 Para registrar proveedores, el usuario deberá tener en cosideración los siguientes puntos:
                 <br/>
-                -
+                <br/>
+                -Deberá ingresar el id según la colerrativa que se esté usando
+                <br/>
+                -Seguido deberá completar la información de la razón social
+                <br/>
+                -Ingresa el RUC del proveedor
+                <br/>
+                -Digite el código postal acompañado del numero telefónico
+                <br/>
+                -Luego ingresará el correo Electrónico
+                <br/>
+                -Ingresas la dirección fiscal
+                <br/>
+                -Por ultimo seleccionará el País y Departamento en el cual está ubicado
+                <br/>
+                -Click al botón Registrar para guardar el nuevo Proveedor.
+                <br/>
+                -Hay 3 opciones adicionales, si se desea Consultar, se realiza atravez de el ID ingresado en un inicio,
+                en caso contrario quiera Modificarlo, puede hacerlo de igual forma identificando al proveedor atravez del ID,
+                y en caso de querer remover o eliminar el proveedor nuevamente se tiene que identificar el producto atraves 
+                del ID y darle click al botón rojo de ELIMINAR.
+                <br/><br/>
+                Para más información <a href='/registro-proveedores'>ingrese aquí.</a>
               </div>
             </div>
             <div className="tab">
@@ -105,6 +120,17 @@ const Acordeon = () => {
                 pt06790215@idat.edu.pe
                 <br/>
                 Jose Luis Chuquipiondo - CEO
+              </div>
+            </div>
+            <div className="tab">
+              <input type="radio" id="rd8" name="rd" />
+              <label className="tab-label" htmlFor="rd8">¿Cómo pasar la verficación?</label>
+              <div className="tab-content">
+                -Si estás logueandote y te apareció la verificación por numero de celuar, simplemente se 
+                tiene que ingresar el número de celular ya registrado inicialmente al crear la cuenta.
+                <br/>
+                Te llegará un MSM con un código de verificación el cual lo ingresarás en el sistema para poder 
+                ingresar sin problemas.
               </div>
             </div>
             <div className="tab">

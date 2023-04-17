@@ -14,7 +14,7 @@ const Home = () => {
             <h2>Hola, ¿cómo podemos ayudarte?</h2>
             <div>
             <a target='_self' href='/usuarios'>
-              <ButtonOptions>DETALLES DE USUARIOS</ButtonOptions>
+              <ButtonOptions>REGISTRO DE USUARIOS</ButtonOptions>
             </a>
             <a target='_self' href='/registro-productos'>
               <ButtonOptions>REGISTRO DE PRODUCTOS</ButtonOptions>

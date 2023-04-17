@@ -36,7 +36,7 @@ const Footer = () => {
               <div>
                 <img src="./img/mobile.png" alt="icon"/>
               </div>
-              (+51) 976 596 5779
+              (+51) 976 596 577
             </h3>
             <h3>
               <div>
